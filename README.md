@@ -143,25 +143,10 @@ Insights & Visualization
 
 ## Key Insights
 
-### Global Impact
-
-- Europe recorded the highest cumulative COVID-19 death count.
-- North America experienced the second-highest death count.
-
-### Infection Trends
-
-- The United States showed one of the highest infection percentages globally.
-- Infection rates varied significantly across countries.
-
-### Vaccination Analysis
-
-- Vaccination adoption differed substantially between regions.
-- Rolling vaccination metrics revealed varying recovery trajectories.
-
-### Geographic Analysis
-
-- Several countries experienced multiple infection waves over time.
-- Pandemic impact was highly dependent on population size and healthcare capacity.
+- Europe recorded the highest COVID-19 death toll, exceeding 1 million deaths.
+- The United States had the highest infection rate among major countries, reaching nearly 19% of its population.
+- North America and Europe emerged as the most heavily impacted regions in terms of infections and fatalities.
+- Forecast models indicated continued infection growth through late 2021, particularly in the United States and Western Europe.
 
 ---
 
