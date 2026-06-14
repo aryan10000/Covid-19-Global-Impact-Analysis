@@ -1,36 +1,46 @@
-# COVID-19 Global Impact Analysis
+# COVID-19 Global Impact Analytics
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![SQL](https://img.shields.io/badge/SQL-Analytics-green)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
+![EDA](https://img.shields.io/badge/EDA-Analysis-red)
+
+End-to-end analytics project leveraging **MySQL** and **Tableau** to analyze global COVID-19 trends, vaccination progress, mortality rates, and population infection patterns through advanced SQL and interactive dashboarding.
+
+---
 
 ## Project Overview
 
-This end-to-end analytics project explores the global impact of COVID-19 using SQL and Tableau. The analysis focuses on infection trends, mortality rates, vaccination progress, and country-level comparisons to uncover meaningful public health insights.
+This project analyzes worldwide COVID-19 data to uncover trends in infections, deaths, and vaccinations across countries and continents.
 
-The project follows a complete analytics workflow:
+The objective was to transform raw public health data into actionable insights through a complete analytics workflow involving:
 
 - Data Cleaning & Transformation
 - Exploratory Data Analysis (EDA)
-- SQL-Based Analysis
-- Advanced SQL Techniques
-- Interactive Tableau Dashboard Development
-- Insight Generation & Visualization
+- Advanced SQL Analysis
+- Rolling Vaccination Tracking
+- Interactive Dashboard Development
+- Forecasting & Trend Analysis
 
-The objective was to transform raw COVID-19 datasets into actionable insights through data analysis and dashboarding.
-
----
-
-## Dashboard Preview
-
-<img width="1280" height="832" alt="covid_dashboard" src="https://github.com/user-attachments/assets/22a471a2-74db-48d7-bfe6-5fe97d2e9b2e" />
+The final deliverable is an executive-level Tableau dashboard designed to support data-driven understanding of global pandemic outcomes.
 
 ---
 
-## Tableau Dashboard
+## Executive Dashboard
 
-🔗 **Interactive Dashboard:**  
-[View Dashboard on Tableau Public](https://public.tableau.com/shared/F6JMXMCB9?:display_count=n&:origin=viz_share_link)
+<img width="1280" height="768" alt="COVID-19 Global Impact Dashboard" src="https://github.com/user-attachments/assets/46a11578-d89d-40da-abf9-46ba22ce5bfd" />
+
 
 ---
 
-## Tools Used
+## Interactive Dashboard
+
+🔗 **Tableau Public Dashboard**
+
+https://public.tableau.com/shared/F6JMXMCB9?:display_count=n&:origin=viz_share_link
+
+---
+
+## Tech Stack
 
 ### Database
 - MySQL
@@ -38,83 +48,111 @@ The objective was to transform raw COVID-19 datasets into actionable insights th
 ### Visualization
 - Tableau Public
 
+### Data Processing
+- SQL
+
 ### Data Source
-- Excel / CSV
+- CSV / Excel
 
 ---
 
 ## Dataset
 
-The project uses two datasets:
+The project utilizes two datasets:
 
-1. CovidDeaths
-2. CovidVaccinations
+### CovidDeaths
+Contains country-level information on:
 
-Key fields include:
-
-- Location
-- Date
 - Population
 - Total Cases
 - New Cases
 - Total Deaths
-- Vaccination Data
+- New Deaths
+- Date-wise Pandemic Data
+
+### CovidVaccinations
+Contains:
+
+- Vaccination Records
+- Daily Vaccination Progress
+- Rolling Vaccination Metrics
 
 ---
 
-## SQL Tasks Performed
+## Data Cleaning & Preparation
 
-### Data Cleaning
+Performed extensive data preparation including:
 
-- Replaced blank values with NULL
-- Modified incorrect datatypes
-- Standardized imported fields
-- Data validation and preparation
+- Handling NULL and missing values
+- Standardizing imported datasets
+- Correcting data types
+- Data validation checks
+- Preparing datasets for analytical querying
+
+---
+
+## SQL Analysis
 
 ### Exploratory Data Analysis
 
-Business questions answered:
+Key business questions addressed:
 
-- Total Cases vs Total Deaths
-- Infection Rate by Country
-- Death Count by Country
-- Death Count by Continent
-- Global Death Percentage
-- Population Infection Percentage
+- What is the relationship between total cases and total deaths?
+- Which countries experienced the highest infection rates?
+- Which countries recorded the highest death counts?
+- Which continents were most affected?
+- What was the global death percentage?
+- What percentage of each country's population was infected?
 
-### Advanced SQL Concepts
+---
 
-Implemented:
+## Advanced SQL Concepts Implemented
 
-- Window Functions
-- Rolling Vaccination Analysis
-- Common Table Expressions (CTEs)
-- Temporary Tables
-- Views
+### Window Functions
+
+Used for:
+
+- Rolling vaccination calculations
+- Trend analysis over time
+
+### Common Table Expressions (CTEs)
+
+Implemented for:
+
+- Multi-step analytical queries
+- Improved query readability
+
+### Views
+
+Created reusable views for dashboard integration and reporting.
+
+### Temporary Tables
+
+Used for intermediate calculations and data transformation.
 
 ---
 
 ## Dashboard Features
 
-### Global Numbers
+### Global KPI Cards
 
-Displays:
+Tracks:
 
 - Total Cases
 - Total Deaths
 - Global Death Percentage
 
-### Total Deaths by Continent
+### Deaths by Continent
 
-Compares cumulative COVID-19 deaths across continents.
+Visual comparison of cumulative COVID-19 deaths across continents.
 
 ### Global Infection Map
 
-Interactive map showing infection percentage by country.
+Interactive geographical visualization displaying infection percentage by country.
 
 ### Population Infection Forecast
 
-Forecasts future infection percentages for selected countries.
+Forecast model showing projected infection percentage growth for major countries.
 
 ---
 
@@ -122,59 +160,67 @@ Forecasts future infection percentages for selected countries.
 
 ```text
 COVID-19 Dataset
-      │
-      ▼
-Data Cleaning & Transformation
-      │
-      ▼
-SQL Analysis
-      │
-      ▼
-Advanced SQL (CTEs, Views, Window Functions)
-      │
-      ▼
-Tableau Dashboard
-      │
-      ▼
-Insights & Visualization
+        │
+        ▼
+Data Cleaning & Validation
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Advanced SQL Analysis
+(CTEs, Views, Window Functions)
+        │
+        ▼
+Tableau Dashboard Development
+        │
+        ▼
+Insights & Forecasting
 ```
 
 ---
 
 ## Key Insights
 
-- Europe recorded the highest COVID-19 death toll, exceeding 1 million deaths.
-- The United States had the highest infection rate among major countries, reaching nearly 19% of its population.
-- North America and Europe emerged as the most heavily impacted regions in terms of infections and fatalities.
-- Forecast models indicated continued infection growth through late 2021, particularly in the United States and Western Europe.
+- Europe recorded the highest cumulative death count, exceeding one million deaths.
+- The United States demonstrated the highest infection percentage among major countries analyzed.
+- North America and Europe emerged as the most heavily impacted regions globally.
+- Forecast models indicated continued infection growth through late 2021.
+- Significant differences were observed in infection and mortality rates across geographic regions.
 
 ---
 
-## Business Impact
+## Business Value
 
-This analysis helped identify:
+This project demonstrates the ability to:
 
-- Global infection trends
-- High-risk regions
-- Vaccination progress patterns
-- Mortality rate differences across countries
-- Geographic variations in pandemic impact
-
-The findings support data-driven understanding of public health outcomes and global pandemic trends.
+- Analyze large-scale real-world datasets
+- Perform advanced SQL-based analytics
+- Build executive dashboards for decision-making
+- Identify trends and anomalies through data exploration
+- Convert raw data into actionable business insights
 
 ---
 
-## Project Files
+## Skills Demonstrated
 
-- `covid_project.sql` → SQL analysis and data exploration queries
-- `README.md` → Project documentation
+- SQL
+- MySQL
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Window Functions
+- CTEs
+- Views
+- Data Visualization
+- Dashboard Development
+- Forecasting
+- Business Intelligence
+- Tableau
 
 ---
 
 ## Author
 
-Aryan Soni
+**Aryan Soni**
 
-Data Analytics | SQL | MySQL | Tableau
-
-GitHub: https://github.com/aryan10000
+Data Analytics | SQL | MySQL | Tableau | Business Intelligence
