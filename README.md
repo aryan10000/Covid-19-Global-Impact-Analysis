@@ -1,12 +1,25 @@
 # COVID-19 Global Impact Analytics
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
-![SQL](https://img.shields.io/badge/SQL-Analytics-green)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
-![EDA](https://img.shields.io/badge/EDA-Analysis-red)
 
 End-to-end analytics project leveraging **MySQL** and **Tableau** to analyze global COVID-19 trends, vaccination progress, mortality rates, and population infection patterns through advanced SQL and interactive dashboarding.
 
 ---
+
+## Dashboard Preview
+
+<img width="1280" height="768" alt="COVID-19 Global Impact Dashboard" src="https://github.com/user-attachments/assets/46a11578-d89d-40da-abf9-46ba22ce5bfd" />
+
+---
+
+
+## Interactive Dashboard
+
+🔗 **Tableau Public Dashboard**
+
+https://public.tableau.com/shared/F6JMXMCB9?:display_count=n&:origin=viz_share_link
+
+
+---
+
 
 ## Project Overview
 
@@ -21,24 +34,12 @@ The objective was to transform raw public health data into actionable insights t
 - Interactive Dashboard Development
 - Forecasting & Trend Analysis
 
-The final deliverable is an executive-level Tableau dashboard designed to support data-driven understanding of global pandemic outcomes.
-
----
-
-## Executive Dashboard
-
-<img width="1280" height="768" alt="COVID-19 Global Impact Dashboard" src="https://github.com/user-attachments/assets/46a11578-d89d-40da-abf9-46ba22ce5bfd" />
+The final deliverable is an executive-level Tableau dashboard designed to support data-driven understanding of global 
+pandemic outcomes.
 
 
 ---
 
-## Interactive Dashboard
-
-🔗 **Tableau Public Dashboard**
-
-https://public.tableau.com/shared/F6JMXMCB9?:display_count=n&:origin=viz_share_link
-
----
 
 ## Tech Stack
 
@@ -190,7 +191,7 @@ Insights & Forecasting
 
 ---
 
-## Business Value
+## Business Impact
 
 This project demonstrates the ability to:
 
