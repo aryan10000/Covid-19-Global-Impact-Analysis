@@ -224,4 +224,4 @@ This project demonstrates the ability to:
 
 **Aryan Soni**
 
-Data Analytics | SQL | MySQL | Tableau | Business Intelligence
+Data Analytics | SQL | MySQL | Tableau | PowerBI | Business Intelligence
